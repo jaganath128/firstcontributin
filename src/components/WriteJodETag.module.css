@@ -1,0 +1,365 @@
+.activateJodEDevice1 {
+  position: relative;
+  z-index: 1;
+}
+.frameChild {
+  height: 487px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+}
+.batteryIcon,
+.combinedShapeIcon,
+.wiFiIcon {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 1;
+}
+.batteryIcon {
+  height: 11.5px;
+  width: 24.5px;
+  top: -9.2px;
+  right: 76.9px;
+  object-fit: contain;
+}
+.combinedShapeIcon,
+.wiFiIcon {
+  height: 10.7px;
+  width: 17.1px;
+  top: -8.8px;
+  right: 126.8px;
+}
+.wiFiIcon {
+  height: 11.1px;
+  width: 15.4px;
+  top: -9px;
+  right: 106.4px;
+}
+.frameGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameItem {
+  position: absolute;
+  top: 77.6px;
+  left: 86.9px;
+  width: 325px;
+  height: 0.5px;
+  z-index: 1;
+}
+.frameParent {
+  width: 488.3px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: -61.9px;
+}
+.activateJodEDeviceParent {
+  width: 426.4px;
+  height: 487px;
+  margin: 0 !important;
+  position: absolute;
+  top: 26.4px;
+  right: -51.4px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 37.6px 92px var(--padding-19xl);
+  box-sizing: border-box;
+}
+.time {
+  text-decoration: none;
+  width: 32px;
+  position: relative;
+  letter-spacing: -0.17px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 32px;
+  z-index: 1;
+}
+.timeWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+  font-size: var(--font-size-mini);
+}
+.doYouHave,
+.loremIpsumDolor {
+  position: relative;
+  display: none;
+}
+.loremIpsumDolor {
+  width: 264px;
+  font-size: 12px;
+}
+.doYouHave {
+  font-weight: 500;
+  color: var(--color);
+}
+.frameInner,
+.rectangleDiv {
+  border-radius: var(--br-5xs);
+}
+.frameInner {
+  width: 147px;
+  height: 46px;
+  position: relative;
+  filter: blur(10px);
+  background-color: var(--color-gold-100);
+  display: none;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--ffd600);
+  width: 100%;
+  height: 100%;
+}
+.writeJodETag1 {
+  position: absolute;
+  top: 11.5px;
+  left: 35.2px;
+  font-weight: 500;
+}
+.rectangleParent {
+  width: 205px;
+  height: 46px;
+  position: relative;
+  display: none;
+  white-space: nowrap;
+  color: var(--color-black);
+}
+.frameChild1 {
+  width: 325px;
+  height: 330px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--al-white);
+  display: none;
+  max-width: 100%;
+}
+.readyToScan {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.readyToScanWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-19xl) 0 37px;
+  font-size: 25px;
+  color: var(--color);
+}
+.maskGroupIcon {
+  height: 98px;
+  width: 98px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.maskGroupWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 68px 0 69px;
+}
+.holdYourDevice {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.holdYourDeviceNearTheNfcWrapper {
+  align-self: stretch;
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2px;
+  box-sizing: border-box;
+}
+.frameChild2 {
+  height: 45px;
+  width: 235px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--color);
+  box-sizing: border-box;
+  display: none;
+}
+.cancel {
+  align-self: stretch;
+  width: 62px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleGroup {
+  align-self: stretch;
+  height: 45px;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--color);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-xl) var(--padding-2xs)
+    var(--padding-2xl);
+  font-size: var(--font-size-xl);
+  color: var(--color);
+}
+.frameContainer,
+.loremIpsumDolorSitAmetCoParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  gap: var(--gap-xl);
+  font-size: var(--font-size-mini);
+}
+.loremIpsumDolorSitAmetCoParent {
+  border-radius: var(--br-mini);
+  background-color: var(--al-white);
+  padding: var(--padding-6xl) 45px;
+  box-sizing: border-box;
+  gap: 35px;
+  flex-shrink: 0;
+  debug_commit: 448091;
+  max-width: 100%;
+  z-index: 3;
+}
+.groupIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frameChild3 {
+  height: 5px;
+  width: 135px;
+  position: relative;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.frameDiv {
+  align-self: stretch;
+  height: 115px;
+  flex-direction: column;
+  gap: 24px;
+  flex-shrink: 0;
+  debug_commit: 448091;
+  margin-top: -86px;
+}
+.activateJodEDevice,
+.frameDiv,
+.scanInstructions,
+.writeJodETag {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.scanInstructions {
+  align-self: stretch;
+  height: 200px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  color: var(--a8a8a);
+}
+.activateJodEDevice,
+.writeJodETag {
+  background-color: var(--al-white);
+  overflow-y: auto;
+}
+.activateJodEDevice {
+  width: 375px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-sm) var(--padding-6xl) 167px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 413px;
+  max-width: calc(100% - 0px);
+}
+.writeJodETag {
+  width: 837px;
+  height: 645px;
+  max-width: 100%;
+  flex-direction: row;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 650px) {
+  .activateJodEDevice {
+    padding-top: var(--padding-xl);
+    padding-bottom: 109px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .activateJodEDevice1,
+  .doYouHave {
+    font-size: var(--font-size-base);
+  }
+  .readyToScan {
+    font-size: var(--font-size-xl);
+  }
+  .cancel {
+    font-size: var(--font-size-base);
+  }
+  .loremIpsumDolorSitAmetCoParent {
+    gap: var(--gap-mid);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .activateJodEDevice {
+    gap: 206px;
+  }
+}

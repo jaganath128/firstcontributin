@@ -1,0 +1,43 @@
+.yashDetailsChild {
+  height: 47.9px;
+  width: 134.7px;
+  position: absolute;
+  margin: 0 !important;
+  top: -14.9px;
+  left: -50px;
+}
+.yashParekh {
+  position: relative;
+  display: inline-block;
+  min-width: 88px;
+  z-index: 1;
+}
+.yashDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  font-size: var(--font-size-base-9);
+}
+.logicalLoopAnd {
+  position: relative;
+  z-index: 1;
+}
+.friday1210 {
+  position: relative;
+  color: var(--a8a8a);
+  display: inline-block;
+  min-width: 71px;
+}
+.yashBio {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs-5);
+  text-align: left;
+  font-size: var(--font-size-smi-3);
+  color: var(--color);
+  font-family: var(--font-roboto);
+}

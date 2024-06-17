@@ -1,0 +1,213 @@
+.appjodEcomviewprofilekish,
+.save {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.save {
+  display: inline-block;
+  min-width: 35px;
+}
+.saveAction {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.addToApple {
+  position: relative;
+  font-weight: 500;
+  text-align: left;
+  z-index: 1;
+}
+.saveButtonContainer {
+  width: 252.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px;
+}
+.actionButtons {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  text-align: center;
+  font-size: var(--font-size-base);
+}
+.profileInfo,
+.profileInfoWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.profileInfo {
+  flex: 1;
+  flex-direction: column;
+  gap: 37px;
+}
+.profileInfoWrapper {
+  width: 350.5px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cancelButtonContainerChild {
+  height: 502px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frameChild {
+  height: 40px;
+  width: 135px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--color);
+  box-sizing: border-box;
+  display: none;
+}
+.cancel {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color);
+  text-align: center;
+  display: inline-block;
+  min-width: 50px;
+  z-index: 1;
+}
+.cancelButtonContainer,
+.rectangleParent {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 1px solid var(--color);
+  padding: var(--padding-4xs) 42px var(--padding-5xs);
+  background-color: transparent;
+  margin: 0 !important;
+  bottom: 168px;
+  left: 87px;
+  border-radius: var(--br-8xs);
+  z-index: 2;
+}
+.rectangleParent:hover {
+  background-color: rgba(84, 84, 84, 0.09);
+  border: 1px solid #545454;
+  box-sizing: border-box;
+}
+.cancelButtonContainer {
+  top: 0;
+  left: 0;
+  width: 689.2px;
+  max-width: 100%;
+}
+.walletBackground {
+  position: absolute;
+  top: 125.6px;
+  left: 30.8px;
+  border-radius: var(--br-8xs);
+  background-color: var(--f4f4f4);
+  width: 725.4px;
+  height: 47.7px;
+  z-index: 1;
+}
+.groupInput {
+  margin: 0;
+  position: absolute;
+  top: 251px;
+  left: 286px;
+  border-radius: 1px;
+  border: 1.5px solid var(--color);
+  box-sizing: border-box;
+  width: 14px;
+  height: 16px;
+  z-index: 1;
+}
+.walletBackground1 {
+  position: absolute;
+  top: 185.3px;
+  left: 30.8px;
+  border-radius: var(--br-8xs);
+  background-color: var(--f4f4f4);
+  width: 725.4px;
+  height: 47.7px;
+  z-index: 1;
+}
+.walletAppIconIos121 {
+  position: absolute;
+  top: 313px;
+  left: 20px;
+  width: 43px;
+  height: 43px;
+  object-fit: cover;
+  z-index: 1;
+}
+.buttonBackground {
+  position: absolute;
+  top: 177.4px;
+  left: 579.9px;
+  border-radius: var(--br-8xs);
+  background-color: var(--ffd600);
+  width: 301.3px;
+  height: 31.8px;
+  z-index: 2;
+}
+.confirmationIcon {
+  position: absolute;
+  top: 359px;
+  left: 326px;
+  border-radius: var(--br-10xs-5);
+  width: 135px;
+  height: 5px;
+  z-index: 1;
+}
+.cancelButtonContainerParent {
+  width: 812px;
+  height: 372px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.share {
+  width: 100%;
+  position: relative;
+  background-color: var(--al-white);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-6xl) 28px;
+  box-sizing: border-box;
+  gap: 418.5px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 450px) {
+  .profileInfo {
+    gap: 18px;
+  }
+  .share {
+    gap: 209px;
+  }
+}

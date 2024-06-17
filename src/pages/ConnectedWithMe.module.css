@@ -1,0 +1,359 @@
+.time {
+  text-decoration: none;
+  width: 32px;
+  position: relative;
+  letter-spacing: -0.17px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 32px;
+}
+.combinedShapeIcon,
+.wiFiIcon {
+  height: 10.7px;
+  width: 17.1px;
+  position: relative;
+}
+.wiFiIcon {
+  height: 11.1px;
+  width: 15.4px;
+}
+.batteryIcon {
+  align-self: stretch;
+  width: 24.5px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 12px;
+}
+.connectionIndicators,
+.navbarConnection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.connectionIndicators {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-8xs);
+}
+.navbarConnection {
+  width: 67px;
+  flex-direction: column;
+  padding: var(--padding-9xs-2) 0 0;
+  box-sizing: border-box;
+}
+.navbarTime,
+.navbarTimeWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.navbarTime {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.navbarTimeWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-smi) var(--padding-9xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+}
+.connectedWithMe1 {
+  position: relative;
+}
+.connectedProfile {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 74px 0 75px;
+}
+.profileIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameChild,
+.profiles {
+  width: 325px;
+  max-width: 100%;
+}
+.profiles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 6.5px;
+  box-sizing: border-box;
+  gap: var(--gap-mid);
+  font-size: var(--font-size-xl);
+}
+.frameChild {
+  height: 55px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--f4f4f4);
+  display: none;
+}
+.searchIcon {
+  height: 22.9px;
+  width: 22.9px;
+  position: relative;
+  min-height: 23px;
+  z-index: 1;
+}
+.connectedWithMeInner,
+.frameItem,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frameItem {
+  width: 54px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 20.4px;
+  flex-direction: column;
+  padding: 2.4px 0 0;
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-mini);
+  color: var(--a8a8a);
+}
+.connectedWithMeInner,
+.rectangleParent {
+  flex-direction: row;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--f4f4f4);
+  padding: 16.1px 15px 16px;
+  gap: 15px;
+}
+.connectedWithMeInner {
+  width: 325px;
+  padding: 0 0 var(--padding-2xs);
+}
+.maskGroupIcon {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  object-fit: cover;
+  min-height: 60px;
+  flex-shrink: 0;
+  debug_commit: 448091;
+}
+.manthanShah {
+  font-size: var(--font-size-base-9);
+  display: inline-block;
+  min-width: 104px;
+}
+.friday1210,
+.hiIAm,
+.manthanShah {
+  position: relative;
+}
+.friday1210 {
+  color: var(--a8a8a);
+  display: inline-block;
+  min-width: 71px;
+}
+.manthanBio,
+.manthanDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.manthanBio {
+  justify-content: flex-start;
+  gap: var(--gap-11xs-5);
+  flex-shrink: 0;
+  debug_commit: 448091;
+}
+.manthanDetails {
+  justify-content: flex-end;
+  padding: 0 0 2.1px;
+}
+.maskGroupParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 20.8px;
+  cursor: pointer;
+  z-index: 1;
+}
+.frameInner {
+  width: 134.7px;
+  height: 47.9px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 448091;
+}
+.nehaPrajapati {
+  font-size: var(--font-size-base-9);
+  display: inline-block;
+  min-width: 106px;
+}
+.hiIAm1,
+.nehaPrajapati {
+  position: relative;
+  white-space: nowrap;
+}
+.friday12101 {
+  position: relative;
+  color: var(--a8a8a);
+  display: inline-block;
+  min-width: 71px;
+}
+.nehaBio,
+.nehaDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nehaBio {
+  flex-direction: column;
+  gap: var(--gap-11xs-5);
+  flex-shrink: 0;
+  debug_commit: 448091;
+}
+.nehaDetails {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 50px;
+}
+.frameParent {
+  align-self: stretch;
+  height: 118.9px;
+  flex-direction: column;
+  padding: 0 17px 71px 0;
+  gap: 17.8px;
+  cursor: pointer;
+}
+.frameParent,
+.manthanProfile,
+.nehaProfile,
+.yashProfile {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.nehaProfile {
+  width: 201.3px;
+  flex-direction: column;
+  padding: 23.3px 0 0;
+  margin-left: -252.4px;
+}
+.manthanProfile,
+.yashProfile {
+  flex-direction: row;
+}
+.manthanProfile {
+  width: 283.2px;
+  padding: 0 0 12.8px;
+  text-align: left;
+}
+.yashProfile {
+  padding: 0 var(--padding-61xl) 12.1px;
+  max-width: 100%;
+}
+.kishanMangukiya {
+  font-size: var(--font-size-base-9);
+}
+.friday12102,
+.kishanMangukiya,
+.uiuxDesignerAnd {
+  position: relative;
+}
+.friday12102 {
+  color: var(--a8a8a);
+  display: inline-block;
+  min-width: 71px;
+}
+.kishanBio,
+.kishanProfile {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.kishanBio {
+  flex-direction: column;
+  gap: var(--gap-11xs-5);
+}
+.kishanProfile {
+  flex-direction: row;
+  padding: 0 var(--padding-61xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+}
+.emptyProfilesChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 689.2px;
+  height: 226.1px;
+  object-fit: cover;
+}
+.emptyProfilesItem {
+  position: absolute;
+  top: 83.1px;
+  left: 326px;
+  width: 135px;
+  height: 5px;
+  z-index: 1;
+}
+.emptyProfiles {
+  width: 689.2px;
+  height: 96.1px;
+  position: relative;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.connectedWithMe {
+  width: 100%;
+  position: relative;
+  background-color: var(--al-white);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-6xl) 0;
+  box-sizing: border-box;
+  gap: 19px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-smi-3);
+  color: var(--color);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 450px) {
+  .navbarTime {
+    flex-wrap: wrap;
+  }
+  .connectedWithMe1 {
+    font-size: var(--font-size-base);
+  }
+  .connectedProfile,
+  .kishanProfile,
+  .nehaDetails,
+  .yashProfile {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
